@@ -1,0 +1,13 @@
+In this file i wrote the git commands
+
+git status
+git pull origin branchname
+git add file name
+git add .
+git commit -m "commit message"
+git push origin branchname
+git diff branchname
+git branch -a
+git branch
+git checkout branchname
+git diff branchname
