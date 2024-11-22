@@ -8,6 +8,18 @@ public class Main {
         Human arpit = new Human(25,"arpit",50000,true);
         System.out.println(kunal.population);
         System.out.println(Human.population);// 3 is the output
+        Human.population = 40000;
+        System.out.println(kunal.population);
+
+        //instance means object bcos object is the instance of the class actually.
+        //greeting();
+    }
+    //fun is independent of instances
+    static void fun(){
+        //greeting();//greeting is dependent of instances
+    }
+    void greeting(){
 
     }
+
 }
