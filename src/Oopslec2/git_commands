@@ -11,3 +11,7 @@ git branch -a
 git branch
 git checkout branchname
 git diff branchname
+
+Alt + Ins -> constructor
+Ctrl + /  -> Single line command
+Ctrl + Shift + / -> Multiline command
