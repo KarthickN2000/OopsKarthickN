@@ -16,6 +16,7 @@ public class Main {
 
         Main funn = new Main();
         funn.greeting();
+        fun();
     }
     //fun is independent of instances
     static void fun(){
@@ -26,7 +27,7 @@ public class Main {
         obj.greeting();
     }
 
-    void fun2(){
+.   void fun2(){
         greeting();
     }
     void greeting(){
