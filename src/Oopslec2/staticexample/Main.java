@@ -27,7 +27,7 @@ public class Main {
         obj.greeting();
     }
 
-.   void fun2(){
+   void fun2(){
         greeting();
     }
     void greeting(){
