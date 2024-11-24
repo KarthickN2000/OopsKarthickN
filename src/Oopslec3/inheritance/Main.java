@@ -12,15 +12,16 @@ public class Main {
 
         // the below is example that parent is refering his child
         // but the child not refering the parent that is not
-
-        //Box box5 = new Boxweight(2,3,4,5);
+//            the left side reference type decide which avriables are accessible actually.
+        Box box5 = new Boxweight();
+        System.out.println(box5.w);
         //Parent child is allowed but child parent not allowed bcos Box doesnt know how to construct weight variable
         // throws error reference can be parent
 
-        // Boxweight box6 = new Box(9,8,7);
+//        Boxweight box6 = new Box(9,8,7);
 
-        Boxprice box4 = new Boxprice(1,1,1,1,1);
-        System.out.println(box4.h);
+//        Boxprice box4 = new Boxprice(1,1,1,1,1);
+//        System.out.println(box4.h);
 
     }
 }

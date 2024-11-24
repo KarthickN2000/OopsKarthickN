@@ -8,7 +8,7 @@ public class Boxweight extends Box{
         //suppose if the Box class contains a varibale known as weight
         // then it can be accessible by super.weight
         System.out.println();
-        this.weight = weight;
+        this.weight = 100;
     }
     // the below will call the Box constrctor of the object type constructor excatly
     // like Box box5 = new Boxweight(2,3,4,5)
