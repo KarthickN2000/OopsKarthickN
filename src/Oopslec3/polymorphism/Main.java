@@ -8,6 +8,6 @@ public class Main {
         // accessible is reference left side
 
 
-        triangle.area();
+        triangle.area(); //gives the area function in triangle by method overriding
     }
 }

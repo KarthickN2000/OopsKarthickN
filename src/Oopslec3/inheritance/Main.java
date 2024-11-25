@@ -1,5 +1,7 @@
 package Oopslec3.inheritance;
 
+import static Oopslec3.inheritance.Box.greeting;
+
 public class Main {
     public static void main(String[] args) {
 //        Box box = new Box();
@@ -14,7 +16,7 @@ public class Main {
         // but the child not refering the parent that is not
 //            the left side reference type decide which avriables are accessible actually.
         Box box5 = new Boxweight();
-        System.out.println(box5.w);
+        //System.out.println(box5.w);
         //Parent child is allowed but child parent not allowed bcos Box doesnt know how to construct weight variable
         // throws error reference can be parent
 
@@ -22,6 +24,11 @@ public class Main {
 
 //        Boxprice box4 = new Boxprice(1,1,1,1,1);
 //        System.out.println(box4.h);
+        //greeting();//can be used with classname or without class name. like Box.greeting();
+
+        //we cant override the static method important to note
+        Boxweight box6 = new Boxweight();
+        Boxweight.greeting();
 
     }
 }

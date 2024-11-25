@@ -3,6 +3,10 @@ package Oopslec3.inheritance;
 public class Boxweight extends Box{
     double weight;
 
+    static void greeting(){
+        System.out.println("Hey i am in boxweight class.");
+    }
+
     public Boxweight() {
         super();
         //suppose if the Box class contains a varibale known as weight

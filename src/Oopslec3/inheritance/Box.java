@@ -5,6 +5,10 @@ public class Box {
     double h;
     double w;
 
+    static void greeting(){
+        System.out.println("Hey i am in box class!");
+    }
+
     Box() {
         this.l = -1;
         this.h = -1;
