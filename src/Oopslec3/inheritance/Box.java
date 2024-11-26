@@ -1,9 +1,9 @@
 package Oopslec3.inheritance;
 
 public class Box {
-    private double l;
-    double h;
-    double w;
+    protected double l;
+    public double h;
+    public double w;
 
     static void greeting(){
         System.out.println("Hey i am in box class!");
@@ -15,7 +15,7 @@ public class Box {
         this.w = -1;
 
     }
-    Box(double l, double h, double w) {
+    public Box(double l, double h, double w) {
         this.l = l;
         this.h = h;
         this.w = w;

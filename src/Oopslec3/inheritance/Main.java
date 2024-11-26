@@ -1,5 +1,7 @@
 package Oopslec3.inheritance;
 
+import java.util.ArrayList;
+
 import static Oopslec3.inheritance.Box.greeting;
 
 public class Main {
@@ -29,6 +31,11 @@ public class Main {
         //we cant override the static method important to note
         Boxweight box6 = new Boxweight();
         Boxweight.greeting();
+
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+
 
     }
 }
