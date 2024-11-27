@@ -24,7 +24,11 @@ public class Boxweight extends Box{
     }
 
     public Boxweight(double l, double h, double w, double weight) {
-        super(l, h, w);
+        /*this.l = l;
+        this.h = h;
+        this.w = w;*/
+        //the above also applicable for parent class variables and
+        super(l,h,w); //this also applicable
         this.weight = weight;
     }
 }
